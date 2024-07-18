@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerDark {
+    background-color: #000;
+}
+
+.containerLight {
+    background-color: rgb(216, 216, 216);
+}
+
+button{
+    padding: 10px 20px;
+    background-color: navajowhite;
+    border-radius: 10px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+select{
+    padding: 5px 10px;
+    background-color: navajowhite;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+
+option{
+    background-color: aliceblue;
+}
+
+option:checked{
+    display: none;
+}
